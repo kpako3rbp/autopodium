@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'Golos Text';
+    src: url('../fonts/GolosText-Regular.eot');
+    src: local('GolosText Regular'), local('GolosText-Regular'),
+        url('../fonts/GolosText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GolosText-Regular.woff') format('woff'),
+        url('../fonts/GolosText-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* @font-face {
+	font-family: 'Roboto Flex';
+	src: url('../fonts/RobotoFlex-Regular.eot');
+	src: local('RobotoFlex Regular'), local('RobotoFlex-Regular'),
+		url('../fonts/RobotoFlex-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/RobotoFlex-Regular.woff') format('woff'),
+		url('../fonts/RobotoFlex-Regular.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+} */
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Light.eot');
+	src: local('Roboto Light'), local('Roboto-Light'),
+		url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Roboto-Light.woff') format('woff'),
+		url('../fonts/Roboto-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Condensed';
+	src: url('../fonts/RobotoCondensed-Regular.eot');
+	src: local('RobotoFlex Regular'), local('RobotoCondensed-Regular'),
+		url('../fonts/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
+		url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}

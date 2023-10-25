@@ -1,0 +1,24 @@
+.contact-form {
+    a {
+        position: relative;
+        transition: var(--trns);
+        &:hover {
+            color: var(--main-color-hover);
+        }
+    }
+    &__descr {
+        width: 50%;
+    }
+    &__form {
+        display: flex;
+        align-items: center;
+    }
+
+    &__fields {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--gap-40);
+        flex-grow: 1;
+        margin-right: var(--gap-40);
+    }
+}

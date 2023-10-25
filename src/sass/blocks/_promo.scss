@@ -1,0 +1,60 @@
+.promo {
+    position: relative;
+    overflow: hidden;
+
+    &__inner {
+        width: 60%;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__descr {
+        width: 80%;
+    }
+
+    &__background {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+
+        animation: left-right 26s linear infinite, blur1 8s linear infinite;
+
+        img {
+            width: 105%;
+            height: 105%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__car {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        animation: saturate 20s linear infinite, shaking .1s linear infinite;
+
+        img {
+            transition: 2s all;
+            &:last-child {
+                position: absolute;
+                left: 109px;
+                top: 227px;
+                width: 764px;
+                height: 457px;
+                background: url(../img/bg/light-car.png) center center/cover no-repeat;
+                z-index: 4;
+
+                animation: appearance .5s linear infinite;
+
+                transition: 2s all;
+            }
+
+            &.scrolled {
+                opacity: 1;
+                animation: appearance2 .5s linear infinite;
+            }
+        }
+    }
+}

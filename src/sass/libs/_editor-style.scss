@@ -1,0 +1,344 @@
+/* ==========================================================================
+   Include variables and mixins
+   ========================================================================== */
+/* ==========================================================================
+   Global CSS variables
+   ========================================================================== */
+:root {
+  --qode-main-color: #bfa37c;
+  --qode-header-light-color: #fff;
+  --qode-header-light-hover-color: #a6a6a6;
+  --qode-header-dark-color: #000;
+  --qode-header-dark-hover-color: #000;
+}
+
+/* ==========================================================================
+   Typography variables
+   ========================================================================== */
+/* ==========================================================================
+   Box variables
+   ========================================================================== */
+/* ==========================================================================
+   Devices screen size variables
+   ========================================================================== */
+/* ==========================================================================
+   Typography mixins
+   ========================================================================== */
+/* ==========================================================================
+   Typography mixins - end
+   ========================================================================== */
+/* ==========================================================================
+   Menu mixins - begin
+   ========================================================================== */
+/* ==========================================================================
+   Menu mixins - end
+   ========================================================================== */
+/* ==========================================================================
+   Layout mixins - begin
+   ========================================================================== */
+/* ==========================================================================
+   Layout mixins - end
+   ========================================================================== */
+/* ==========================================================================
+   Input fields mixins - begin
+   ========================================================================== */
+/* ==========================================================================
+   Input fields mixins - end
+   ========================================================================== */
+/* ==========================================================================
+   Pagination mixins - begin
+   ========================================================================== */
+/* ==========================================================================
+   Pagination mixins - end
+   ========================================================================== */
+/* ==========================================================================
+   Grid size mixins - begin
+   ========================================================================== */
+/* ==========================================================================
+   Grid size mixins - end
+   ========================================================================== */
+/* ==========================================================================
+   Helper mixins - begin
+   ========================================================================== */
+/* ==========================================================================
+   Helper mixins - end
+   ========================================================================== */
+/* ==========================================================================
+   Common mixins - begin
+   ========================================================================== */
+/* ==========================================================================
+   Common mixins - end
+   ========================================================================== */
+/* ==========================================================================
+   Custom mixins - begin
+   ========================================================================== */
+/* ==========================================================================
+   Custom mixins - end
+   ========================================================================== */
+body {
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  line-height: 1.75em;
+  font-weight: 400;
+  color: #404040;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-weight: 400;
+  color: #0c1315;
+  font-family: "Epilogue", sans-serif;
+  font-size: 50px;
+  line-height: 1.24em;
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 680px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+h1 a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+}
+
+h1 a:focus, h1 a:hover {
+  color: var(--qode-main-color);
+}
+
+h2 {
+  font-weight: 400;
+  color: #0c1315;
+  font-family: "Epilogue", sans-serif;
+  font-size: 42px;
+  line-height: 1.30952em;
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 680px) {
+  h2 {
+    font-size: 36px;
+  }
+}
+
+h2 a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+}
+
+h2 a:focus, h2 a:hover {
+  color: var(--qode-main-color);
+}
+
+h3 {
+  font-weight: 400;
+  color: #0c1315;
+  font-family: "Epilogue", sans-serif;
+  font-size: 35px;
+  line-height: 1.34286em;
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 680px) {
+  h3 {
+    font-size: 32px;
+  }
+}
+
+h3 a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+}
+
+h3 a:focus, h3 a:hover {
+  color: var(--qode-main-color);
+}
+
+h4 {
+  font-weight: 400;
+  color: #0c1315;
+  font-family: "Epilogue", sans-serif;
+  font-size: 28px;
+  line-height: 1.42857em;
+  margin: 20px 0;
+}
+
+h4 a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+}
+
+h4 a:focus, h4 a:hover {
+  color: var(--qode-main-color);
+}
+
+h5 {
+  font-weight: 400;
+  color: #0c1315;
+  font-family: "Epilogue", sans-serif;
+  font-size: 22px;
+  line-height: 1.45455em;
+  margin: 20px 0;
+}
+
+h5 a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+}
+
+h5 a:focus, h5 a:hover {
+  color: var(--qode-main-color);
+}
+
+h6 {
+  font-weight: 400;
+  color: #0c1315;
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+  line-height: 1.55556em;
+  margin: 20px 0;
+}
+
+h6 a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+}
+
+h6 a:focus, h6 a:hover {
+  color: var(--qode-main-color);
+}
+
+a,
+p a {
+  color: #0c1315;
+  text-decoration: none;
+  transition: color 0.3s ease-out;
+  cursor: pointer;
+}
+
+a:focus, a:hover,
+p a:focus,
+p a:hover {
+  color: var(--qode-main-color);
+}
+
+p {
+  margin: 10px 0;
+}
+
+blockquote {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  color: #0c1315;
+  font-family: "Epilogue", sans-serif;
+  font-size: 22px;
+  line-height: 1.45455em;
+  position: relative;
+  padding: 0 7.4% 0 10%;
+  border: none;
+  quotes: none;
+  z-index: 1;
+}
+
+blockquote.wp-block-quote.is-large, blockquote.wp-block-quote.is-style-large {
+  padding: 18px 10% 20px 0;
+}
+
+blockquote.wp-block-pullquote {
+  padding: 25px !important;
+  text-align: center;
+}
+
+blockquote.wp-block-pullquote p {
+  font-size: 28px !important;
+  line-height: 1.6 !important;
+}
+
+blockquote.wp-block-pullquote.alignleft {
+  max-width: 420px;
+}
+
+blockquote.wp-block-pullquote.alignright {
+  max-width: 420px;
+}
+
+blockquote.has-text-align-right:before {
+  left: auto;
+  right: 0;
+}
+
+blockquote:before {
+  display: none;
+}
+
+blockquote > * {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+blockquote p {
+  margin: 0 !important;
+}
+
+blockquote:after {
+  content: '';
+}
+
+blockquote cite {
+  display: block;
+  margin: 10px 0 0;
+  font-style: normal;
+  font-weight: 400 !important;
+  text-align: inherit !important;
+  text-transform: uppercase !important;
+}

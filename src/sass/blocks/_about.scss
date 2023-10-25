@@ -1,0 +1,59 @@
+.about {
+    position: relative;
+/*     &__inner {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        gap: var(--gap-50);
+    } */
+
+    &__lcw {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+
+        width: 50%;
+        z-index: 3;
+    }
+
+    &__imgs {
+        //position: absolute;
+        //right: 0;
+        //top: 50%;
+        //transform: translateY(-50%);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--gap-50);
+
+        //padding-right: 60px;
+    }
+
+    &__img {
+        transition: var(--trns);
+        overflow: hidden;
+
+        img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+            transition: var(--trns);
+            z-index: 2
+        }
+        &:hover {
+            img {
+                scale: 1.05;
+            }
+        }
+    }
+
+    &__rcw {
+        padding-left: calc(50% + var(--gap-50) * 2);
+
+        .btn {
+            z-index: 5;
+        }
+
+    }
+}
