@@ -26,7 +26,7 @@
                     <span class="fz-13 tt-upc tc-white-med tar condensed">08:00 - 22:00 МСК</span>
                 </a>
                 <div class="header__divider"></div>
-                <button class="btn btn_header header__btn"><span
+                <button class="btn btn_header header__btn" data-fancybox data-src="#contact-form-modal"><span
                         class="condensed btn__text-plus">Консультация</span></button>
             </div>
         </div>
@@ -47,7 +47,8 @@
                         стоимость
                         машины, разберем процесс покупки, подготовим договор и ответим на любые ваши вопросы.
                     </p>
-                    <button class="btn mt-90"><span class="condensed btn__text-plus">Подобрать авто</span></button>
+                    <button class="btn mt-90" data-fancybox data-src="#contact-form-modal"><span
+                            class="condensed btn__text-plus">Подобрать авто</span></button>
                 </div>
             </div>
 
@@ -169,7 +170,8 @@
                                         К сожалению, этот автомобиль продан. Но мы можем привезти такой же специально
                                         для вас, просто оставьте зявку!
                                     </div>
-                                    <div class="btn mt-30"><span class="condensed btn__text-plus">Оставить заявку</span>
+                                    <div class="btn mt-30" data-fancybox data-src="#contact-form-modal"><span
+                                            class="condensed btn__text-plus">Оставить заявку</span>
                                     </div>
                                 </div>
                             </div>
@@ -181,7 +183,8 @@
                                 К сожалению, этот автомобиль продан. Но мы можем привезти такой же специально
                                 для вас, просто оставьте зявку!
                             </div>
-                            <div class="btn mt-30"><span class="condensed btn__text-plus">Оставить заявку</span>
+                            <div class="btn mt-30" data-fancybox data-src="#contact-form-modal"><span
+                                    class="condensed btn__text-plus">Оставить заявку</span>
                             </div>
                         </div>
                     </div>
@@ -222,7 +225,8 @@
                                 условия на рынке, ускоренные маршруты доставки, гарантированную чистоту сделки.
                             </p>
                         </div>
-                        <button class="btn mt-60"><span class="condensed btn__text-plus">Связаться</span></button>
+                        <button class="btn mt-60" data-fancybox data-src="#contact-form-modal"><span
+                                class="condensed btn__text-plus">Связаться</span></button>
                     </div>
                 </div>
             </div>
@@ -340,7 +344,8 @@
                         </p>
                     </div>
                     <div class="steps__item">
-                        <button class="btn"><span class="condensed btn__text-plus">Заказать авто</span></button>
+                        <button class="btn" data-fancybox data-src="#contact-form-modal"><span
+                                class="condensed btn__text-plus">Заказать авто</span></button>
                     </div>
                 </div>
             </div>
@@ -434,6 +439,31 @@
         </div>
     </footer>
 
+
+    <div class="modal" id="contact-form-modal">
+        <div class="modal__inner modal__inner_narrow">
+            <h2 class="title fz-35 tc-white">Заказать звонок</h2>
+            <p class="fz-16 tc-white-dark mt-40">
+                Оставьте свои контактные данные и наш менеджер свяжется с вами. Нажимая на кнопку «ЗАКАЗАТЬ ЗВОНОК»,
+                вы соглашаетесь с <a href="#" class="tc-red fw-600 form__link">политикой конфиденциальности</a>
+            </p>
+            <form action="">
+                <div class="form__input-wrapper mt-40">
+                    <input type="text" name="name" id="user-name" class="form__input contact-form__input"
+                        placeholder="Ваше имя">
+                    <span></span>
+                </div>
+                <div class="form__input-wrapper mt-20">
+                    <input type="text" name="phone" id="user-phone" class="form__input contact-form__input"
+                        placeholder="Ваш телефон *">
+                    <span></span>
+                </div>
+                <button class="btn mt-50" data-fancybox="" data-src="#contact-form-modal"><span
+                        class="condensed btn__text-plus">Отправить заявку</span></button>
+            </form>
+        </div>
+    </div>
+
     <script>
         const element = document.getElementById('fara');
 
@@ -445,7 +475,7 @@
             }
         });
     </script>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/bundle.min.js"></script>
 </body>
 
 </html>
