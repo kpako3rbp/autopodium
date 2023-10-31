@@ -1,0 +1,1 @@
+.about{position:relative}.about__inner{display:grid;grid-template-columns:repeat(2,50%);gap:var(--gap-50)}.about__lcw{position:absolute;left:0;top:50%;transform:translateY(-50%)}.about__imgs{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--gap-50)}.about__rcw{padding-left:var(--gap-50)}
