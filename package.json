@@ -57,6 +57,7 @@
   ],
   "dependencies": {
     "@fancyapps/ui": "^5.0.15",
+    "axios": "^1.6.0",
     "babel": "^6.23.0",
     "inputmask": "^5.0.8",
     "noty": "^3.2.0-beta-deprecated",
